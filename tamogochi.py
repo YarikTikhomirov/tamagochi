@@ -101,7 +101,7 @@ def delete_pet():
     show_stats()
     
 def countdown():
-    window.after(2000, countdown)
+    window.after(20000, countdown)
     decrease_mood()
     decrease_fullness()
     decrease_health()
